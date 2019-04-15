@@ -13,7 +13,6 @@ let FreestyleUsage = Component.extend({
   showLabels: alias('emberFreestyle.showLabels'),
   showNotes: alias('emberFreestyle.showNotes'),
   showCode: alias('emberFreestyle.showCode'),
-  dynamicProperties: computed(() => {}),
 
   show: computed('emberFreestyle.focus', 'slug', function() {
     let slug = this.get('slug');

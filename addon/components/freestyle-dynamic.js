@@ -8,7 +8,6 @@ export default Component.extend({
   layout,
   classNames: ['FreestyleDynamic'],
   headerTitle: 'Dynamic Properties:',
-  dynamicProperties: computed(() => ({})),
 
   // Need this separate property for freestyle-dynamic's dynamic.<property> to work
   dynamicPropertyValues: computed('dynamicProperties', function() {

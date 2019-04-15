@@ -19,7 +19,6 @@ export default Component.extend({
   initialHighlightComplete: false,
   useDoubleQuotesForStrings: false,
   emberFreestyle: service(),
-  dynamicProperties: computed(() => {}),
 
   _unindent(snippet) {
     if (!this.get('unindent')) {
